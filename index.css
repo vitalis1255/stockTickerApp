@@ -1,0 +1,100 @@
+.container{
+  width: 270px;
+  height: 190px;
+  margin: 40px auto;
+  padding:18px;
+  display:flex;
+  flex-direction:column;
+  background-color: black;
+  color: black;
+  text-align: start;
+  line-height:30px;
+  font-weight: bold;
+}
+
+.innerContainer{
+  width: 270px;
+  height: 190px;
+  background-color: white;
+}
+p{
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 10px;
+}
+
+.time{
+  display: flex;
+  flex-direction: row;
+  column-gap: 12px;
+  margin-left: 10px;
+}
+
+.name{
+  margin-left: 10px;
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+}
+
+.sym{
+  margin-left: 10px;
+  display: flex;
+  flex-direction: row;
+  column-gap: 17px;
+}
+
+.price{
+  margin-left: 10px;
+  display: flex;
+  flex-direction: row;
+  column-gap: 12px;
+}
+
+.start-stop-clear-div{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 30px;
+}
+
+.start{
+  border: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 4px;
+  background-color: chocolate;
+  color: white;
+  cursor: pointer;
+}
+
+.stop{
+  border: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 4px;
+  background-color: chocolate;
+  color: white;
+  cursor: pointer;
+}
+
+.clear{
+  border: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 4px;
+  background-color: chocolate;
+  color: white;
+  cursor: pointer;
+}
+
+.down-image{
+  filter: invert(1);
+  margin-left: 10px;
+}
